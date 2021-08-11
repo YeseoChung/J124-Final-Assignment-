@@ -2,13 +2,13 @@
 
 Datasets I worked with are: 
 * "Student Data" which deals with data related to vaccinations and exemptions for incoming kindergarteners from school years 2000-2001 through 2014-2015.
-  * n=number of students 
-  * nDTP=number of DTP vaccinations
-  * nPBE=number of personal belief exemptions 
+  * n= number of students 
+  * nDTP= number of DTP vaccinations
+  * nPBE= number of personal belief exemptions 
   * nPME= numbe of permanent medical exemptions 
 * "pertussisRates_2010_2015" which outlines pertussis rates by county between 2010 and 2014. 
 
-**Which county had the highest number of PBE(Personal belief exemption)?**
+**Which county had the highest number incoming kindergarteners with PBE(Personal belief exemption)?**
 1. Create pivot table with "County" as row and "SUM of nPBE" as value.
 2. Copy entire pivot table and paste into new sheet as "values only."
 3. Sort "nPBE" column from "Z to A" to find the highest number of personal belief exemptions. <br/>
@@ -16,7 +16,7 @@ _Los Angeles County had the highest number of PBE(Personal belief exemptions) wi
 
 !['Question1','pivotTable'](/Question1.jpg)
 
-**Which county had the highest number of PME(Permanent medical exemption)?**
+**Which county had the highest number of incoming kindergarteners with PME(Permanent medical exemption)?**
 1. Create pivot table with "County" as row and "SUM of nPME" as value. 
 2. Copy entire pivot table and paste into new sheet as "values only."
 3. Sort "nPME" column from "Z to A" to find the highest number of permanent medical exemptions.
@@ -24,7 +24,7 @@ _Los Angeles County had the highest numer of permanent medical exemptions with 2
 
 !['Question1','pivotTable'](/Question2.jpg)
 
-**What percent of each county had PBE in 2014?**
+**What percent of incoming kindergarteners in each county had PBE in 2014?**
 1. Use filter tool to show just data for 2014. 
 2. Copy data for 2014 into new sheet. 
 3. Use 2014 data to create pivot table with "County" as row and "SUM of n" and "SUM of nPBE" as values. 
@@ -35,7 +35,7 @@ _Los Angeles County had the highest numer of permanent medical exemptions with 2
 
 !['Question1','pivotTable'](/Question3.jpg)
 
-**What percent of each county had PME in 2014?**
+**What percent of incoming kindergarteners in each county had PME in 2014?**
 1. Use filter tool to show just data for 2014. 
 2. Copy data for 2014 into new sheet. 
 3. Use 2014 data to create pivot table with "County" as row and "SUM of n" and "SUM of nPME" as values. 
@@ -46,7 +46,7 @@ _Los Angeles County had the highest numer of permanent medical exemptions with 2
 
 !['Question1','pivotTable'](/Question4.jpg)
 
-**What is the percent change between 2000 and 2015 for DTP vaccinations?**
+**What is the percent change between 2000 and 2015 for DTP vaccinations in incoming kindergarteners?**
 * Please note that percent change could not be calculated for Alpine county because data is only available between 2000 and 2013 for Alpine county.
 1. Pivot table. Row as "County." Value as "SUM of nDTP."
 2. Use filter to isolate this pivot table for 2000. Copy this data into new sheet as "values only."
@@ -57,7 +57,7 @@ _Los Angeles County had the highest numer of permanent medical exemptions with 2
 
 !['Question1','pivotTable'](/Question5fixed.jpg)
 
-**What is the percent change between 2000 and 2013 for DTP vaccinations in Alpine County?**
+**What is the percent change between 2000 and 2013 for DTP vaccinations in Alpine County for incoming kindergarteners?**
 1. Pivot table. Row as "County." Value as "SUM of nDTP."
 2. Use filter to isolate this pivot table for just Alpine County.
 3. Then use another filter to just show the year 2000. Copy this data into new sheet as "values only."
@@ -90,8 +90,14 @@ _Los Angeles County had the highest numer of permanent medical exemptions with 2
 1. Add new column titled, "Rate of PBE for in coming kindergarteners(per 100,000)"
 2. For each county, divide nPBE by n. Then, multiply by 100,000. 
 
-*_The updated 2014 data is shown below:_* </br>
+**_The updated 2014 data is shown below:_** </br>
 _Please note that data from StudentData.csv is filled in red, data from pertusisRates2010_2015.csv is filled in orange, and data I calculated is filled in yellow._
 !['Question1','pivotTable'](/Question8.jpg)
 
+
+**Story Pitch**
+In 2013, there were 6.64 cases of pertussis per 100,000 people in California. In 2014, there were 28.35 cases of pertussis per 100,000 people in California. I will be exploring this rise of pertussis cases in 2014 by writing a story that explores this occurence. To make sense of the importance of giving your children the DTP vaccine from a medical professional, I will interview Dr.Tomás Aragón, the director of California Department of Public Health. Dr. Aragón is also an assistant adjunct professor at UC Berkeley. He can be reached through his email at: aragon@berkeley.edu. **report**
+
+Then the story will focus on Humboldt county as the case study for how refusing to vaccinate children can lead to outbreak in the county at large. By merging "StudentData.csv" and "pertusisRates2010_2015.csv" for the year 2014 and then calculating the rates per 100,000 people for PME and PBE of incoming kindergarten students(from StudentData.csv)-- I intended to find if high PME and PBE rates in incoming kindergarteners had an impact on pertussis infection rates at large in the county. I found that the data suggested a relationship between high PME and PBE rates and pertussis rates in 2014. 
+For example, the counties with the highest pertussis rates were(in descending order):Sonoma, Humboldt, Marin, Napa, and Yolo. The counties with the highest PME rates were (in descending order):Kern, Butte, Nevada, Placer, and Humboldt. The counties with the highest PBE were (in descending order): Nevada, Mariposa, Mono, Humboldt, and Santa Cruz. Among the highest PME and PBE rates for incoming kindergarten students was Humboldt County, which was also the county with the second highest number of pertussis cases in 2014. To gain better insight into the high number of PME and PBE in Humboldt County, I will interview Dr.Chris Hartley, the superintendent of schools for Humboldt County. He can be reached at superintendent@hcoe.org. I would make sure to also ask him the qualifications of PME and PBE and whether he believes in the validity of these exemptions. 
 
