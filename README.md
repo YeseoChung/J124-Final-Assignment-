@@ -40,16 +40,18 @@ _Los Angeles County had the highest numer of permanent medical exemptions with 2
 6. Sort the "percentage of PME" from "Z-A" (in descending order)
 7. The chart below illustrates my findings: 
 
+!['Question1','pivotTable'](/Question4.jpg)
 
+**What is the percent change between 2010 and 2015 for DTP vaccinations?**
+* Please note that percent change could not be calculated for Alpine county because data is only available between 2000 and 2013 for Alpine county.
+1. Pivot table. Row as "County." Value as "nDTP."
+2. Use filter to isolate this pivot table for 2010. Copy this data into new sheet as "values only."
+3. Use filter on pivot table again to isolate data for 2015. Copy "nDTP" for 2015 into the new sheet. 
+4. Use percent change formula which is (New-Old/Old X 100) to find percent change. 
+5. Sort percent change of DTP from "Z-A"(in descending order). 
+6. The chart below illustrates my findings:
 
-
-
-
-**Which county had the highest number of MMR vaccinations?**
-1. Create pivot table with "County" as row and "nMMR" as value. 
-2. Copy entire pivot table and paste into new sheet as "values only."
-3. Sort "nPBE" column from "Z to A" to find the highest number of personal belief exemptions. 
-
+8. !['Question1','pivotTable'](/Question4.jpg)
 
 **Using "pertussisRates_2010_2015" identify which year had the highest number of pertussis cases.**
 1. The dataset had a total count and rate of pertussis for the entire state of california. 
