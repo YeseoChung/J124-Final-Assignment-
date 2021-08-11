@@ -61,8 +61,14 @@ _Los Angeles County had the highest numer of permanent medical exemptions with 2
 5. Use percent change formulato find percent change. 
 6. Sort "percent change of DTP" from "Z-A"(in descending order). 
 7. The chart below illustrates my findings:
-8. 
 
-**Using "pertussisRates_2010_2015" identify which year had the highest number of pertussis cases.**
-1. The dataset had a total count and rate of pertussis for the entire state of california. 
-2. Between 2010 and 2014, the year with the highest number of pertussis in California was in 2014. 
+!['Question1','pivotTable'](/Question6.jpg)
+
+**According to the data that outlines pertussis cases by counties in California, 2014 had the most number of cases.**
+* To examine if there is a relationship between the number of cases and vaccinations trends, I used VLOOKUP to join the data for pertussis cases in 2014 with an 2014 version of the kindergarten data.
+1. Use pivot table and input "County" as rows. And the following as values: "n", "nDTP","nPME", and "nPBE."
+2. Then I used "year" filter to just show data for 2014. 
+3. I copied the pivot table as "plain text" into a new sheet. 
+4. Next, I created two new columds called, "Pertussis Cases" and "Pertussis Rates."
+5. Finally, I used VLOOKUP to join 2014 pertussis case data. 
+6. This is the final product:
