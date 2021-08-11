@@ -21,6 +21,13 @@ _Los Angeles County had the highest numer of permanent medical exemptions with 2
 !['Question1','pivotTable'](/Question2.jpg)
 
 **What percent of each county had PBE in 2014?**
+1. Use filter tool to show just data for 2014. 
+2. Copy data for 2014 into new sheet. 
+3. Use 2014 data to create pivot table with "County" as row and "Sum of n" and "Sum of nPBE" as values. 
+4. Copy pivot table into new sheet and paste as "values only." 
+5. Use division formula to find percent of PBE in each county. In other words, I am dividing number of PBE of each county by the total number of incoming kindergarteners. 
+6. The chart below illustrates my findings: 
+
 
 
 
