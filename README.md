@@ -65,10 +65,12 @@ _Los Angeles County had the highest numer of permanent medical exemptions with 2
 !['Question1','pivotTable'](/Question6.jpg)
 
 **According to the data that outlines pertussis cases by counties in California, 2014 had the most number of cases.**
-* To examine if there is a relationship between the number of cases and vaccinations trends, I used VLOOKUP to join the data for pertussis cases in 2014 with an 2014 version of the kindergarten data.
+* To examine if there is a relationship between the number of cases and vaccinations trends, I used VLOOKUP to join the data for pertussis cases in 2014 with an 2014 version of the kindergarten data. Please note that there was no data available for Alpine County in 2014 which I replaced as "n/a" as placeholders.
 1. Use pivot table and input "County" as rows. And the following as values: "n", "nDTP","nPME", and "nPBE."
 2. Then I used "year" filter to just show data for 2014. 
 3. I copied the pivot table as "plain text" into a new sheet. 
 4. Next, I created two new columds called, "Pertussis Cases" and "Pertussis Rates."
 5. Finally, I used VLOOKUP to join 2014 pertussis case data. 
-6. This is the final product:
+6. The joined 2014 data is shown below:
+
+!['Question1','pivotTable'](/Question7.jpg)
