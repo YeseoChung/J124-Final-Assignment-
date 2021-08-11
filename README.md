@@ -26,7 +26,21 @@ _Los Angeles County had the highest numer of permanent medical exemptions with 2
 3. Use 2014 data to create pivot table with "County" as row and "Sum of n" and "Sum of nPBE" as values. 
 4. Copy pivot table into new sheet and paste as "values only." 
 5. Use division formula to find percent of PBE in each county. In other words, I am dividing number of PBE of each county by the total number of incoming kindergarteners. 
-6. The chart below illustrates my findings: 
+6. Sort the "percentage of PBE" from "Z-A"(in descending order)
+7. The chart below illustrates my findings: 
+
+!['Question1','pivotTable'](/Question3.jpg)
+
+**What percent of each county had PME in 2014?**
+1. Use filter tool to show just data for 2014. 
+2. Copy data for 2014 into new sheet. 
+3. Use 2014 data to create pivot table with "County" as row and "Sum of n" and "Sum of nPME" as values. 
+4. Copy pivot table into new sheet and paste as "values only." 
+5. Use division formula to find percent of PBE in each county. I am dividing the number of PMEs in each county by the total number incoming kindergarteners to find the percentage. 
+6. Sort the "percentage of PME" from "Z-A" (in descending order)
+7. The chart below illustrates my findings: 
+
+
 
 
 
