@@ -91,3 +91,4 @@ _Los Angeles County had the highest numer of permanent medical exemptions with 2
 2. For each county, divide nPBE by n. Then, multiply by 100,000. 
 
 _The updated 2014 data is shown below:
+!['Question1','pivotTable'](/Question8.jpg)
