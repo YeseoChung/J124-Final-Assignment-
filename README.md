@@ -8,6 +8,8 @@ Datasets I worked with are:
   * nPME= numbe of permanent medical exemptions 
 * "pertussisRates_2010_2015" which outlines pertussis rates by county between 2010 and 2014. 
 
+## Data Analysis Questions
+
 **Which county had the highest number incoming kindergarteners with PBE(Personal belief exemption)?**
 1. Create pivot table with "County" as row and "SUM of nPBE" as value.
 2. Copy entire pivot table and paste into new sheet as "values only."
@@ -92,12 +94,43 @@ _Los Angeles County had the highest numer of permanent medical exemptions with 2
 
 **_The updated 2014 data is shown below:_** </br>
 _Please note that data from StudentData.csv is filled in red, data from pertusisRates2010_2015.csv is filled in orange, and data I calculated is filled in yellow._
-!['Question1','pivotTable'](/Question8.jpg)
+!['Question1','pivotTable'](/Question8fixed.jpg)
 
 
-**Story Pitch**
-In 2013, there were 6.64 cases of pertussis per 100,000 people in California. In 2014, there were 28.35 cases of pertussis per 100,000 people in California. I will be exploring this rise of pertussis cases in 2014 by writing a story that explores this occurence. To make sense of the importance of giving your children the DTP vaccine from a medical professional, I will interview Dr.Tomás Aragón, the director of California Department of Public Health. Dr. Aragón is also an assistant adjunct professor at UC Berkeley. He can be reached through his email at: aragon@berkeley.edu. **report**
+## Story Pitch</br> 
+In 2013, the rate for pertussis cases were 6.64 per 100,000 people in California. In 2014, the rate for pertussis cases was 28.35 per 100,000 people in California. I will be exploring this rise of pertussis cases in 2014 by writing a story that explores this occurence. First, I begin my story by going over the overarching facts and trends about pertussis in 2014. This [2014 article](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6348a2.htm) published by the Center for Disease Control and Prevention declared a pertussis epidemic in California. This will be used to discuss the pertussis epidemic at large. To make sense of the importance of giving your children the DTP vaccine from a medical professional, I will interview Dr.Tomás Aragón, the director of California Department of Public Health. Dr. Aragón is also an assistant adjunct professor at UC Berkeley. He can be reached through his email at: aragon@berkeley.edu. 
 
-Then the story will focus on Humboldt county as the case study for how refusing to vaccinate children can lead to outbreak in the county at large. By merging "StudentData.csv" and "pertusisRates2010_2015.csv" for the year 2014 and then calculating the rates per 100,000 people for PME and PBE of incoming kindergarten students(from StudentData.csv)-- I intended to find if high PME and PBE rates in incoming kindergarteners had an impact on pertussis infection rates at large in the county. I found that the data suggested a relationship between high PME and PBE rates and pertussis rates in 2014. 
-For example, the counties with the highest pertussis rates were(in descending order):Sonoma, Humboldt, Marin, Napa, and Yolo. The counties with the highest PME rates were (in descending order):Kern, Butte, Nevada, Placer, and Humboldt. The counties with the highest PBE were (in descending order): Nevada, Mariposa, Mono, Humboldt, and Santa Cruz. Among the highest PME and PBE rates for incoming kindergarten students was Humboldt County, which was also the county with the second highest number of pertussis cases in 2014. To gain better insight into the high number of PME and PBE in Humboldt County, I will interview Dr.Chris Hartley, the superintendent of schools for Humboldt County. He can be reached at superintendent@hcoe.org. I would make sure to also ask him the qualifications of PME and PBE and whether he believes in the validity of these exemptions. 
+Then the story will focus on Humboldt county as the case study for how refusing to vaccinate children can lead to outbreak in the county at large. By merging "StudentData.csv" and "pertusisRates2010_2015.csv" for the year 2014 and then calculating the rates per 100,000 people for PME and PBE of incoming kindergarten students(from StudentData.csv)-- I intended to find if high PME and PBE rates in incoming kindergarteners had an impact on pertussis infection rates at large in the county. I found that the data suggested a relationship between high PME and PBE rates in incoming kindergarteners and pertussis rates at large in 2014. The table below shows relevent findings:
 
+**The counties with the highest pertussis rates(in descending order):**
+County | Pertussis Rates(per 100,000)
+-------| -----------
+Sonoma County | 142.18  
+Humboldt County|103.84
+Marin County| 103.17
+Napa County|97.77
+Yolo County|70.32
+
+**The counties with the highest nPME for incoming kindergarteners(in descending order):**
+County | nPME per 100,000
+-------| -----------
+Kern County| 580  
+Butte County|554
+Nevada County| 477
+Placer Couny|401
+Humboldt County|392
+
+**The counties with the highest nPBE for incoming kindergartners(in descending order):**
+County | nPBE per 100,000
+-------| -----------
+Nevada County| 21,360  
+Mariposa County| 14,650
+Mono County| 11,029
+Humoldt Couny| 10,327
+Santa Cruz County| 9,011
+
+As the data illustrates, among the highest PME and PBE rates for incoming kindergarten students was Humboldt County, which was also the county with the second highest number of pertussis cases in 2014. </br>
+To gain better insight into the high number of PME and PBE in Humboldt County, I will interview Dr. Chris Hartley, the superintendent of schools for Humboldt County. He can be reached at superintendent@hcoe.org. I would make sure to also ask him the qualifications of PME and PBE and whether he believes in the validity of these exemptions.</br>
+Moreover, the data also suggests that there are significantly more personal belief exemptions than permanenet medical exemptions. Personal belief exemptions could be rooted in conspiratorial beliefs as such narratives that doubt the safety of vaccines like DTP have been circulating. After interviewing the superintendent of Humboldt County about PME and PBE. It would be beneficial to report the psychology of believing in such conspiracy theories. There is a [2017 peer-reviewed journal article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5724570/) published in _Current Directions in Psychological Science_. I can use this article to inform readers on why one may find conspiracy theories appealing because understanding the psychology behind it may empower people to stay away from such fallacies. 
+
+## Data Visualization 
