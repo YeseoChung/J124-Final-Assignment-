@@ -134,3 +134,7 @@ To gain better insight into the high number of PME and PBE in Humboldt County, I
 Moreover, the data also suggests that there are significantly more personal belief exemptions than permanenet medical exemptions. Personal belief exemptions could be rooted in conspiratorial beliefs as such narratives that doubt the safety of vaccines like DTP have been circulating. After interviewing the superintendent of Humboldt County about PME and PBE. It would be beneficial to report the psychology of believing in such conspiracy theories. There is a [2017 peer-reviewed journal article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5724570/) published in _Current Directions in Psychological Science_. I can use this article to inform readers on why one may find conspiracy theories appealing because understanding the psychology behind it may empower people to stay away from such fallacies. 
 
 ## Data Visualization 
+For the data visualization, I created a chloropleth map that shows the pertussis rate per 100,000 people by each county in California for 2014. 
+The [live chloropleth map](https://www.datawrapper.de/_/3TlCd/) can be seen by clicking the link.
+The screenshot is included below:
+!['Question1','pivotTable'](/pertussisratemap.jpg)
